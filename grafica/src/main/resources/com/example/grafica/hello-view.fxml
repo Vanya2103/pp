@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="364.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grafica.HelloController">
+   <children>
+      <Button fx:id="sum" layoutX="27.0" layoutY="316.0" mnemonicParsing="false" onAction="#onSumButtonClick" text="sum" />
+      <Label fx:id="result" layoutX="26.0" layoutY="27.0" prefHeight="206.0" prefWidth="285.0" style="-fx-background-color: Gray;" text="result" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField layoutX="27.0" layoutY="247.0" prefHeight="26.0" prefWidth="550.0" promptText="X:" fx:id="x" />
+      <TextField fx:id="y" layoutX="27.0" layoutY="282.0" prefHeight="26.0" prefWidth="550.0" promptText="Y:" />
+      <Button fx:id="sub" layoutX="74.0" layoutY="316.0" mnemonicParsing="false" onAction="#subClick" text="sub" />
+      <Button fx:id="mul" layoutX="118.0" layoutY="316.0" mnemonicParsing="false" onAction="#mulClick" text="mul" />
+      <Button fx:id="div" layoutX="163.0" layoutY="316.0" mnemonicParsing="false" onAction="#divClick" text="div" />
+      <Button fx:id="ost" layoutX="202.0" layoutY="316.0" mnemonicParsing="false" onAction="#ostAction" text="ost" />
+      <PieChart fx:id="pie" layoutX="327.0" layoutY="29.0" prefHeight="206.0" prefWidth="246.0" title="pie" />
+   </children>
+</AnchorPane>
