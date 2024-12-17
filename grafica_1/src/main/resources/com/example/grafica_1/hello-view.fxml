@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?> <!-- Import for HBox -->
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.grafica_1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Calculator" style="-fx-font-size: 24px;"/>
+
+    <TextField fx:id="X" promptText="Enter first number" />
+    <TextField fx:id="Y" promptText="Enter second number" />
+
+    <HBox spacing="10">
+        <Button fx:id="sum" text="Add" onAction="#onSumButtonClick"/>
+        <Button fx:id="sub" text="Subtract" onAction="#onSubButtonClick"/>
+        <Button fx:id="mul" text="Multiply" onAction="#onMulButtonClick"/>
+        <Button fx:id="div" text="Divide" onAction="#onDivButtonClick"/>
+        <Button fx:id="ost" text="Modulus" onAction="#onOstButtonClick"/>
+    </HBox>
+
+    <Label fx:id="resultLabel" text="Result: " style="-fx-font-size: 18px;"/>
+</VBox>
