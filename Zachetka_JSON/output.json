@@ -1,0 +1,81 @@
+[ {
+  "studentID" : "1",
+  "lastName" : "Иванов",
+  "firstName" : "Иван",
+  "middleName" : "Иванович",
+  "group" : "1",
+  "course" : 2,
+  "sessions" : [ {
+    "sessionNumber" : 1,
+    "subjects" : [ {
+      "name" : "Математика",
+      "grade" : 10,
+      "exam" : true
+    }, {
+      "name" : "Физика",
+      "grade" : 9,
+      "exam" : true
+    } ]
+  } ],
+  "allGradesNineOrTen" : true
+}, {
+  "studentID" : "2",
+  "lastName" : "Петров",
+  "firstName" : "Петр",
+  "middleName" : "Петрович",
+  "group" : "1",
+  "course" : 2,
+  "sessions" : [ {
+    "sessionNumber" : 1,
+    "subjects" : [ {
+      "name" : "Математика",
+      "grade" : 8,
+      "exam" : true
+    }, {
+      "name" : "Физика",
+      "grade" : 10,
+      "exam" : true
+    } ]
+  } ],
+  "allGradesNineOrTen" : false
+}, {
+  "studentID" : "3",
+  "lastName" : "Сидоров",
+  "firstName" : "Сидор",
+  "middleName" : "Сидорович",
+  "group" : "2",
+  "course" : 3,
+  "sessions" : [ {
+    "sessionNumber" : 1,
+    "subjects" : [ {
+      "name" : "Математика",
+      "grade" : 9,
+      "exam" : true
+    }, {
+      "name" : "Физика",
+      "grade" : 8,
+      "exam" : true
+    } ]
+  } ],
+  "allGradesNineOrTen" : false
+}, {
+  "studentID" : "4",
+  "lastName" : "Пипкин",
+  "firstName" : "Пупка",
+  "middleName" : "Пупсович",
+  "group" : "4",
+  "course" : 3,
+  "sessions" : [ {
+    "sessionNumber" : 1,
+    "subjects" : [ {
+      "name" : "Математика",
+      "grade" : 6,
+      "exam" : true
+    }, {
+      "name" : "Физика",
+      "grade" : 2,
+      "exam" : true
+    } ]
+  } ],
+  "allGradesNineOrTen" : false
+} ]
